@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Book a Massage in Kampala | Calm Touch</title>
+<meta name="description" content="Book your massage, cuddling, companionship or special experience session in Kampala, Kira or Wakiso. Confirm instantly on WhatsApp.">
+<link rel="canonical" href="https://calmtouch.ug/book.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="index.html">Calm Touch</a>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="massage.html">Massage</a></li>
+    <li><a href="cuddling.html">Cuddling</a></li>
+    <li><a href="companionship.html">Companionship</a></li>
+    <li><a href="experiences.html">Experiences</a></li>
+    <li><a href="safety.html">Safety</a></li>
+    <li><a href="stories.html">Stories</a></li>
+    <li><a href="book.html" aria-current="page">Book</a></li>
+  </ul>
+</div></header>
+
+<main>
+<div class="wrap pagehead"><h2>Book your session</h2><p>Fill this in and WhatsApp opens with your booking details ready to send. Choosing a service first fills in the service and length for you. Prices are flexible, so add your budget if you have one.</p></div>
+<section><div class="wrap">
+<form id="f">
+  <div><label for="n">Name or nickname</label><input id="n" placeholder="Any name we can call you" autocomplete="off" required></div>
+  <div><label for="s">Service</label>
+    <select id="s"><option>Mobile home massage</option><option>Office chair massage</option><option>Neck, back and shoulder relief</option><option>Professional cuddling</option><option>Friendly companionship</option><option>Dream spa day</option><option>Birthday or anniversary surprise</option><option>Guided relaxation session</option><option>Reset weekend bundle</option><option>Couples session or gift voucher</option><option>Package of 5 sessions</option><option>Office wellness visit</option></select></div>
+  <div><label for="l">Length</label><select id="l"><option>Not sure yet</option><option>15 min</option><option>30 min</option><option>45 min</option><option>60 min</option><option>90 min</option><option>2 hours</option><option>Custom</option></select></div>
+  <div><label for="a">Your area</label><input id="a" placeholder="e.g. Kira, Ntinda, Kololo" required></div>
+  <div><label for="t">Preferred day and time</label><input id="t" placeholder="e.g. Saturday 4pm"></div>
+  <div><label for="b">Your budget in UGX (optional)</label><input id="b" inputmode="numeric" placeholder="e.g. 50,000"></div>
+  <div><label>Message preview</label><div class="pv" id="pv"></div></div>
+  <a class="btn off" id="send" href="#" rel="noopener">Send booking on WhatsApp</a>
+  <p id="err" role="alert" style="color:#B3261E;margin:0;display:none">Please add a name or nickname and your area first.</p>
+</form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p><strong>Calm Touch</strong>. Kampala, Kira and Wakiso.</p>
+  <p>WhatsApp: +256 792 534423 &middot; Open 8am to 8pm daily</p>
+</div></footer>
+
+<script src="js/book.js"></script>
+</body>
+</html>
