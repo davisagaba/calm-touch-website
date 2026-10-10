@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://calmtouch.ug/sitemap.xml
+Sitemap: https://davisagaba.github.io/calm-touch-website/sitemap.xml
