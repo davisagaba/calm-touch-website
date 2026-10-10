@@ -50,6 +50,26 @@
   <p class="foot-row">WhatsApp: +256 792 534423 &middot; Open 8am to 8pm daily</p>
 </div></footer>
 
+<div class="chatw">
+  <div class="chatw-panel" id="chatwPanel" role="dialog" aria-label="Calm Touch chat" hidden>
+    <div class="chatw-head"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13c0-6.5 5.5-11 16-11 0 12-4.5 17-11 17C6 19 4 16.5 4 13Z" fill="var(--gold)"/></svg><div><strong>Calm Touch</strong><span>Usually replies within minutes</span></div></div>
+    <div class="chatw-body" id="chatwBody">
+      <div class="chatw-msg bot">Hi! What would you like to know?</div>
+      <div class="chatw-quick" id="chatwQuick">
+        <button type="button" data-a="services">Services &amp; prices</button>
+        <button type="button" data-a="book">How booking works</button>
+        <button type="button" data-a="safe">Is this safe / non-sexual?</button>
+        <button type="button" data-a="area">Areas you cover</button>
+      </div>
+    </div>
+    <a class="chatw-cta" id="chatwCta" href="https://wa.me/256792534423?text=Hello%2C%20I%27d%20like%20to%20book%20a%20session." target="_blank" rel="noopener">Continue on WhatsApp</a>
+  </div>
+  <button type="button" class="chatw-toggle" id="chatwToggle" aria-expanded="false" aria-controls="chatwPanel" aria-label="Chat with Calm Touch">
+    <svg class="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/></svg>
+    <svg class="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+</div>
+<script src="js/chat-widget.js" defer></script>
 <script src="js/book.js"></script>
 </body>
 </html>
